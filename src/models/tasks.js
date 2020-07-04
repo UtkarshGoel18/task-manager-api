@@ -2,7 +2,7 @@
 const mongoose =require('mongoose')
 
 const taskSchema= new mongoose.Schema({
-    discription : {
+    description : {
         type: String,
         required: true,
         trim :true
